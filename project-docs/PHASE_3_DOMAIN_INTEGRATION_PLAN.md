@@ -2,7 +2,9 @@
 
 ## Status
 
-Draft created for review.
+Current phase.
+
+Domain integration planning is ready to begin.
 
 Do not change DNS records yet.
 
@@ -99,3 +101,5 @@ Future custom domain:
 # Next Step
 
 Review the current GoDaddy DNS records and Microsoft 365 DNS dependency before making any change.
+
+This is Phase 3 Step 1.
