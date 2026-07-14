@@ -2,9 +2,9 @@
 
 ## Status
 
-Draft created for review.
+Implemented for website domain integration.
 
-Do not perform these steps until the checklist is reviewed and approved.
+Final Microsoft 365 email confirmation is pending.
 
 ---
 
@@ -265,6 +265,6 @@ Phase 3 domain integration can be marked complete when:
 
 # Next Step
 
-Review this checklist before implementation.
+Test Microsoft 365 email send and receive using `sakib@easylearn365.com`.
 
-No DNS changes yet.
+After email is confirmed working, mark Phase 3 complete.

@@ -82,25 +82,28 @@ Next Actions:
 # Phase 3 – Domain Integration
 
 Status:
-Current
+Website integration completed; Microsoft 365 email confirmation pending
 
 Goal:
 
 Connect easylearn365.com to GitHub Pages.
 
-Planned Work:
+Completed Work:
 
 - Review DNS records
 - Preserve Microsoft 365 functionality
 - Configure GitHub Pages custom domain
 - Enable HTTPS
+- Add GitHub Pages A records for the apex domain
+- Configure `www` CNAME for GitHub Pages
+- Confirm DNS check successful in GitHub Pages
+- Confirm `https://easylearn365.com` is accessible
+- Confirm `https://www.easylearn365.com` is accessible
 
 Next Actions:
 
-- Review current GoDaddy DNS records
-- Identify Microsoft 365 DNS records that must not be changed
-- Identify GitHub Pages DNS records needed for the website
-- Prepare safe DNS change plan before implementation
+- Test Microsoft 365 email send and receive for `sakib@easylearn365.com`
+- If email works, mark Phase 3 complete
 
 ---
 
@@ -125,7 +128,7 @@ Completed:
 
 Next Actions:
 
-- Continue Phase 3 – Domain Integration
+- Complete final Microsoft 365 email confirmation for Phase 3
 
 ---
 
