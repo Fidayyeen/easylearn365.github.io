@@ -100,6 +100,8 @@ Future custom domain:
 
 # Next Step
 
-Review the current GoDaddy DNS records and Microsoft 365 DNS dependency before making any change.
+Review `PHASE_3_DOMAIN_IMPLEMENTATION_CHECKLIST.md`.
 
-This is Phase 3 Step 1.
+Phase 3 Step 1, DNS record review, is complete.
+
+No DNS changes yet.
