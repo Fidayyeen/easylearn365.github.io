@@ -2,7 +2,9 @@
 
 ## Status
 
-DNS records updated, GitHub Pages DNS check successful, and HTTPS enforced.
+Completed.
+
+DNS records updated, GitHub Pages DNS check successful, HTTPS enforced, and Microsoft 365 email confirmed working.
 
 ---
 
@@ -97,11 +99,10 @@ The user confirmed:
 - Enforce HTTPS has been enabled.
 - `https://easylearn365.com` is accessible.
 - `https://www.easylearn365.com` is accessible.
+- `sakib@easylearn365.com` can send and receive email.
 
 ---
 
 # Next Step
 
-Test Microsoft 365 email send and receive using `sakib@easylearn365.com`.
-
-After email is confirmed working, Phase 3 can be marked complete.
+Move to Phase 4 – Blog Platform.
