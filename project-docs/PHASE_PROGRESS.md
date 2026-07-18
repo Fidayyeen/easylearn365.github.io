@@ -135,7 +135,7 @@ Next Actions:
 # Phase 4 – Blog Platform
 
 Status:
-In Progress
+Completed
 
 Goal:
 
@@ -152,6 +152,8 @@ Completed:
 - Minimal blog index implemented
 - First migrated blog post implemented
 - Second migrated blog post implemented
+- Minimal blog implementation reviewed on the live website
+- Blog navigation and post links confirmed working
 
 Potential Topics:
 
@@ -165,14 +167,14 @@ Potential Topics:
 
 Next Actions:
 
-- Review minimal blog implementation on the website
+- Move to Phase 5 – Portfolio & Projects
 
 ---
 
 # Phase 5 – Portfolio & Projects
 
 Status:
-Not Started
+Next
 
 Goal:
 

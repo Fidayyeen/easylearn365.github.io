@@ -112,11 +112,11 @@ https://github.com/Fidayyeen/easylearn365.github.io
 
 ## Next Planned Activity
 
-Move to Phase 4.
+Move to Phase 5.
 
 Recommended next step:
 
-Review the minimal blog implementation on the website.
+Start Portfolio & Projects planning.
 
 No advanced styling work should be performed yet.
 
