@@ -149,6 +149,9 @@ Completed:
 - First migration batch selected
 - First two rewritten posts approved after polish
 - Standard blog post format locked
+- Minimal blog index implemented
+- First migrated blog post implemented
+- Second migrated blog post implemented
 
 Potential Topics:
 
@@ -162,7 +165,7 @@ Potential Topics:
 
 Next Actions:
 
-- Move to minimal website blog implementation
+- Review minimal blog implementation on the website
 
 ---
 

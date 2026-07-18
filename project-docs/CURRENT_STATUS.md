@@ -116,7 +116,7 @@ Move to Phase 4.
 
 Recommended next step:
 
-Create the Bytes & Clouds migration plan for the four existing Blogspot posts.
+Review the minimal blog implementation on the website.
 
 No advanced styling work should be performed yet.
 

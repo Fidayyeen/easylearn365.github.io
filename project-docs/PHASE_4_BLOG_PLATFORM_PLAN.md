@@ -7,7 +7,7 @@ Step 1 locked.
 Step 2 locked for the first migration batch.
 
 Current step:
-Step 4 - Minimal website blog implementation.
+Step 5 - Review minimal blog implementation.
 
 ---
 
@@ -205,4 +205,18 @@ When a post is migrated from Bytes & Clouds, add a short note near the top or bo
 
 # Next Action
 
-Move to minimal website blog implementation.
+Review the minimal blog implementation on the website.
+
+Implemented pages:
+
+- `blog/index.html`
+- `blog/the-story-behind-easylearn365/index.html`
+- `blog/understanding-the-microsoft-cloud-ecosystem/index.html`
+
+Review checks:
+
+- Blog index loads correctly.
+- Both post links work.
+- Navigation works from each post page.
+- Each post follows the locked blog format.
+- Content is readable before styling is added later.
