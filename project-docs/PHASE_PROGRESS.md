@@ -146,6 +146,8 @@ Completed:
 - Blog strategy locked
 - EasyLearn365 blog direction confirmed
 - Migration rule for Bytes & Clouds content confirmed
+- First migration batch selected
+- First two rewritten posts approved after polish
 
 Potential Topics:
 
@@ -159,7 +161,7 @@ Potential Topics:
 
 Next Actions:
 
-- Create the Bytes & Clouds migration plan
+- Review and lock the standard blog post format
 
 ---
 

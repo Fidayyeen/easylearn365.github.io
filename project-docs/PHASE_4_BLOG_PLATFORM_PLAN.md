@@ -4,8 +4,10 @@
 
 Step 1 locked.
 
+Step 2 locked for the first migration batch.
+
 Current step:
-Step 2 - Bytes & Clouds migration plan.
+Step 3 - Standard blog post format.
 
 ---
 
@@ -69,7 +71,7 @@ Where appropriate, migrated posts can mention that they were originally publishe
 # Step 2 - Migration Plan
 
 Status:
-Current
+Locked for first migration batch
 
 Existing posts to review:
 
@@ -91,14 +93,114 @@ No existing Bytes & Clouds posts should be archived at this stage.
 
 ---
 
+# First Migration Batch
+
+Status:
+Ready for website implementation after blog format is locked.
+
+## Post 1
+
+Original source:
+Bytes & Clouds
+
+Working document:
+`1 Introduction.docx`
+
+EasyLearn365 title:
+`The Story Behind EasyLearn365`
+
+Post type:
+Reflection / origin story
+
+Primary category:
+Website Build Journey
+
+Secondary category:
+Career Growth
+
+Migration type:
+Rewrite before migrating
+
+Status:
+Approved after polish
+
+Purpose:
+Introduce EasyLearn365, explain the learning-in-public philosophy, and connect Sakib's IT, cloud, Microsoft 365, identity, automation, and AI Platform Engineering journey.
+
+Publishing priority:
+First
+
+## Post 2
+
+Original source:
+Bytes & Clouds
+
+Working document:
+`2 Understanding the Microsoft Cloud Ecosystem.docx`
+
+EasyLearn365 title:
+`Understanding the Microsoft Cloud Ecosystem: How Microsoft 365 and Azure Work Together`
+
+Post type:
+Technical foundation post
+
+Primary category:
+Microsoft 365
+
+Secondary categories:
+Azure, Identity, Intune and Endpoint Management
+
+Migration type:
+Rewrite before migrating
+
+Status:
+Approved after polish
+
+Purpose:
+Explain the Microsoft cloud ecosystem as a connected platform built around identity, productivity, device management, Azure, and security.
+
+Publishing priority:
+Second
+
+---
+
+# Standard Blog Post Format
+
+Status:
+Draft for review
+
+Every EasyLearn365 blog post should use a simple, repeatable structure.
+
+Required elements:
+
+1. Title
+2. Short introduction
+3. Why this topic matters
+4. Main explanation or walkthrough
+5. What I learned
+6. How this connects to my roadmap
+7. Closing thought or next step
+
+Optional elements:
+
+- Tools used
+- Problem statement
+- Steps followed
+- Challenges or mistakes
+- Screenshots or diagrams
+- Related posts
+- Original source note for migrated content
+
+Migrated post note:
+
+When a post is migrated from Bytes & Clouds, add a short note near the top or bottom:
+
+`Originally published on Bytes & Clouds and rewritten for EasyLearn365.`
+
+---
+
 # Next Action
 
-Deep-dive Step 2 and define the migration plan for each existing post:
+Review and lock the standard blog post format.
 
-- New EasyLearn365 title
-- Category
-- Migration type
-- Rewrite notes
-- Purpose on the new site
-- Publishing priority
-
+After the format is locked, move to minimal website blog implementation.
