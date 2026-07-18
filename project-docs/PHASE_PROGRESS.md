@@ -148,6 +148,7 @@ Completed:
 - Migration rule for Bytes & Clouds content confirmed
 - First migration batch selected
 - First two rewritten posts approved after polish
+- Standard blog post format locked
 
 Potential Topics:
 
@@ -161,7 +162,7 @@ Potential Topics:
 
 Next Actions:
 
-- Review and lock the standard blog post format
+- Move to minimal website blog implementation
 
 ---
 

@@ -7,7 +7,7 @@ Step 1 locked.
 Step 2 locked for the first migration batch.
 
 Current step:
-Step 3 - Standard blog post format.
+Step 4 - Minimal website blog implementation.
 
 ---
 
@@ -167,19 +167,23 @@ Second
 # Standard Blog Post Format
 
 Status:
-Draft for review
+Locked
 
 Every EasyLearn365 blog post should use a simple, repeatable structure.
 
 Required elements:
 
 1. Title
-2. Short introduction
-3. Why this topic matters
-4. Main explanation or walkthrough
-5. What I learned
-6. How this connects to my roadmap
-7. Closing thought or next step
+2. Published Date
+3. Category
+4. Reading Time
+5. Introduction
+6. Section 1
+7. Section 2
+8. Section 3
+9. Section 4
+10. Key Takeaways
+11. Closing Thoughts
 
 Optional elements:
 
@@ -201,6 +205,4 @@ When a post is migrated from Bytes & Clouds, add a short note near the top or bo
 
 # Next Action
 
-Review and lock the standard blog post format.
-
-After the format is locked, move to minimal website blog implementation.
+Move to minimal website blog implementation.
