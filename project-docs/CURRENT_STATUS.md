@@ -69,6 +69,8 @@ Completed Activities:
 - Services page implemented minimally
 - CV / Resume page implemented minimally
 - Contact page implemented minimally
+- Basic site-wide stylesheet added
+- Consistent layout, typography, spacing, navigation styling, and footer added across all pages
 
 ---
 
@@ -116,7 +118,7 @@ Continue Phase 5.
 
 Recommended next step:
 
-Keep the Portfolio / Projects page as a public placeholder for now and continue building the remaining site structure, styling, formatting, and presentation.
+Review the basic site-wide presentation pass, then continue refining individual pages one by one.
 
 No advanced styling work should be performed yet.
 

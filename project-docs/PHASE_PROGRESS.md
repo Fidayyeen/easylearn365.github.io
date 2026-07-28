@@ -187,10 +187,13 @@ Completed:
 - Project areas defined for future documentation.
 - Project documentation structure defined.
 - Portfolio / Projects page intentionally paused as a placeholder until the full site is built and styled.
+- Basic site-wide stylesheet added.
+- Consistent layout, typography, spacing, navigation styling, and footer added across all pages.
 
 Next Actions:
 
-- Continue building the remaining site structure, styling, formatting, and presentation.
+- Review the basic site-wide presentation pass.
+- Continue refining individual pages one by one.
 - Return to individual portfolio projects after the main website is complete and presentable.
 
 ---
