@@ -116,7 +116,7 @@ Continue Phase 5.
 
 Recommended next step:
 
-Document the EasyLearn365 website build as the first portfolio project.
+Keep the Portfolio / Projects page as a public placeholder for now and continue building the remaining site structure, styling, formatting, and presentation.
 
 No advanced styling work should be performed yet.
 
