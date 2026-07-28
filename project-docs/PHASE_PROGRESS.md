@@ -174,11 +174,22 @@ Next Actions:
 # Phase 5 – Portfolio & Projects
 
 Status:
-Next
+In Progress
 
 Goal:
 
 Document practical projects and labs.
+
+Completed:
+
+- Portfolio / Projects section moved from internal guidance to visitor-facing content.
+- Project status stages defined: Completed, In Progress, Planned.
+- Project areas defined for future documentation.
+- Project documentation structure defined.
+
+Next Actions:
+
+- Document the EasyLearn365 website build as the first portfolio project.
 
 ---
 

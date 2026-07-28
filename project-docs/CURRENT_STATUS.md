@@ -112,11 +112,11 @@ https://github.com/Fidayyeen/easylearn365.github.io
 
 ## Next Planned Activity
 
-Move to Phase 5.
+Continue Phase 5.
 
 Recommended next step:
 
-Start Portfolio & Projects planning.
+Document the EasyLearn365 website build as the first portfolio project.
 
 No advanced styling work should be performed yet.
 
