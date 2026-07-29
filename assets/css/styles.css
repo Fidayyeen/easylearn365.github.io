@@ -47,6 +47,22 @@ header {
   padding: 1.25rem 0 2rem;
 }
 
+.site-brand {
+  display: block;
+  width: min(520px, 100%);
+  margin: 0 0 1rem;
+}
+
+.site-brand:hover,
+.site-brand:focus {
+  opacity: 0.92;
+}
+
+.brand-logo {
+  display: block;
+  width: 100%;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -137,7 +153,12 @@ img {
   height: auto;
 }
 
-header img {
+.site-brand .brand-logo {
+  margin: 0;
+  border-radius: 0;
+}
+
+header img:not(.brand-logo) {
   display: block;
   width: min(260px, 70vw);
   margin-top: 1.25rem;

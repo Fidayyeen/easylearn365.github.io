@@ -71,6 +71,8 @@ Completed Activities:
 - Contact page implemented minimally
 - Basic site-wide stylesheet added
 - Consistent layout, typography, spacing, navigation styling, and footer added across all pages
+- EasyLearn365 brand logo added to all page headers
+- Footer wording updated consistently across all pages
 
 ---
 
