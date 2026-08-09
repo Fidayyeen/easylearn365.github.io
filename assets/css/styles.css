@@ -54,22 +54,9 @@ header {
 .hero {
   width: 100%;
   margin: 0;
-  padding: 2rem max(1rem, calc((100% - 980px) / 2)) 3.5rem;
+  padding: 3rem max(1rem, calc((100% - 980px) / 2)) 3.5rem;
   border-top: 0;
   background: linear-gradient(180deg, #f5f8fc 0%, #ffffff 100%);
-}
-
-.hero-logo-banner {
-  display: flex;
-  justify-content: center;
-  padding: 1.2rem 0 2rem;
-}
-
-.hero-logo-banner img {
-  display: block;
-  width: min(660px, 100%);
-  background: #ffffff;
-  box-shadow: 0 18px 45px rgba(31, 95, 139, 0.12);
 }
 
 .hero-copy {
@@ -148,25 +135,21 @@ header {
   justify-content: space-between;
   gap: 1.5rem;
   width: 100%;
-  min-height: 5.4rem;
-  padding: 0.9rem max(1rem, calc((100% - 1120px) / 2));
+  min-height: 6.3rem;
+  padding: 1rem max(1rem, calc((100% - 1120px) / 2));
   background: var(--ink);
 }
 
 .site-brand {
   display: block;
   flex: 0 0 auto;
+  width: min(355px, 42vw);
   margin: 0;
-  color: #ffffff;
-  font-size: 1.45rem;
-  font-weight: 800;
-  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
 .site-brand:hover,
 .site-brand:focus {
-  color: #ffffff;
   opacity: 0.92;
 }
 
@@ -336,11 +319,11 @@ footer p {
   }
 
   .site-brand {
-    font-size: 1.25rem;
+    width: min(315px, 100%);
   }
 
   .hero {
-    padding: 1.2rem 0.75rem 2.6rem;
+    padding: 2.2rem 0.75rem 2.6rem;
   }
 
   nav {

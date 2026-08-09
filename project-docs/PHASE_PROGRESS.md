@@ -195,13 +195,12 @@ Completed:
 - Dark top navigation added across all pages.
 - About Me navigation label changed to Sakib Wani.
 - Home page hero upgraded with stronger visual contrast and clearer visual structure.
-- Top header changed to text-only EasyLearn365 branding.
-- Large EasyLearn365 logo moved into the Home page hero banner.
-- Extra Home page logo card removed from the hero section.
+- EasyLearn365 logo restored in the top header with larger readable tagline sizing.
+- Extra Home page hero logo/banner removed to avoid repeated branding.
 
 Next Actions:
 
-- Review the updated text-only header and Home page logo hero.
+- Review the updated logo header and Home page hero message.
 - Continue refining the Home page section by section.
 - Return to individual portfolio projects after the main website is complete and presentable.
 
