@@ -136,14 +136,14 @@ header {
   gap: 1rem;
   width: 100%;
   min-height: 4.7rem;
-  padding: 0.75rem max(1rem, calc((100% - 1120px) / 2));
+  padding: 0.75rem 1rem;
   background: var(--ink);
 }
 
 .site-brand {
   display: block;
   flex: 0 0 auto;
-  width: min(250px, 32vw);
+  width: min(220px, 30vw);
   margin: 0;
   text-decoration: none;
 }
@@ -319,7 +319,7 @@ footer p {
   }
 
   .site-brand {
-    width: min(240px, 100%);
+    width: min(215px, 100%);
   }
 
   .hero {
