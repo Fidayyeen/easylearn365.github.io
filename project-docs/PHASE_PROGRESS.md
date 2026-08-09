@@ -191,11 +191,12 @@ Completed:
 - Consistent layout, typography, spacing, navigation styling, and footer added across all pages.
 - EasyLearn365 brand logo added to all page headers.
 - Footer wording updated consistently across all pages.
+- Home page hero section refined with clearer positioning and primary links.
 
 Next Actions:
 
-- Review the site-wide branding, header, and footer pass.
-- Continue refining individual pages one by one.
+- Review the updated Home page hero section.
+- Continue refining the Home page section by section.
 - Return to individual portfolio projects after the main website is complete and presentable.
 
 ---
