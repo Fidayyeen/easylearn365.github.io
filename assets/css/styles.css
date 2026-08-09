@@ -65,13 +65,87 @@ header {
   margin: 0 auto;
 }
 
-.hero .eyebrow {
-  margin: 0 0 0.8rem;
-  color: #82d7f1;
-  font-size: 0.92rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+.logo-marquee {
+  width: min(100%, 760px);
+  margin: 0 auto 1.25rem;
+  overflow: hidden;
+}
+
+.logo-track {
+  display: flex;
+  width: max-content;
+  gap: 0.75rem;
+  animation: logo-scroll 28s linear infinite;
+}
+
+.logo-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.45rem;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.logo-chip::before {
+  content: "";
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.5rem;
+  background: currentColor;
+}
+
+.logo-chip.microsoft {
+  color: #7dd3fc;
+}
+
+.logo-chip.azure {
+  color: #38bdf8;
+}
+
+.logo-chip.identity {
+  color: #a78bfa;
+}
+
+.logo-chip.automation {
+  color: #facc15;
+}
+
+.logo-chip.ai {
+  color: #67e8f9;
+}
+
+.logo-chip.devops {
+  color: #93c5fd;
+}
+
+.logo-chip.workplace {
+  color: #86efac;
+}
+
+@keyframes logo-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+  }
 }
 
 .hero h1 {

@@ -82,6 +82,7 @@ Completed Activities:
 - Header logo background adjusted to blend with the dark navigation bar
 - Header logo text recolored for readability on the dark navigation bar
 - Home page hero/message section centered and given a medium-dark background
+- Home page hero focus text replaced with a right-to-left moving technology logo strip
 
 ---
 
