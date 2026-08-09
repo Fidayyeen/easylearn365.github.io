@@ -133,17 +133,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.5rem;
+  gap: 1rem;
   width: 100%;
-  min-height: 6.3rem;
-  padding: 1rem max(1rem, calc((100% - 1120px) / 2));
+  min-height: 4.7rem;
+  padding: 0.75rem max(1rem, calc((100% - 1120px) / 2));
   background: var(--ink);
 }
 
 .site-brand {
   display: block;
   flex: 0 0 auto;
-  width: min(355px, 42vw);
+  width: min(250px, 32vw);
   margin: 0;
   text-decoration: none;
 }
@@ -163,7 +163,7 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.5rem 1.35rem;
+  gap: 0.45rem 1rem;
   padding: 0;
   border-bottom: 0;
   font-size: 0.96rem;
@@ -319,7 +319,7 @@ footer p {
   }
 
   .site-brand {
-    width: min(315px, 100%);
+    width: min(240px, 100%);
   }
 
   .hero {
