@@ -52,21 +52,34 @@ header {
 }
 
 .hero {
-  display: grid;
-  gap: 2rem;
   width: 100%;
   margin: 0;
-  padding: 3.5rem max(1rem, calc((100% - 980px) / 2)) 4rem;
+  padding: 2rem max(1rem, calc((100% - 980px) / 2)) 3.5rem;
   border-top: 0;
-  background:
-    linear-gradient(135deg, rgba(22, 168, 216, 0.16), rgba(22, 168, 216, 0) 45%),
-    linear-gradient(180deg, var(--ink), var(--ink-soft));
-  color: #ffffff;
+  background: linear-gradient(180deg, #f5f8fc 0%, #ffffff 100%);
+}
+
+.hero-logo-banner {
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem 0 2rem;
+}
+
+.hero-logo-banner img {
+  display: block;
+  width: min(660px, 100%);
+  background: #ffffff;
+  box-shadow: 0 18px 45px rgba(31, 95, 139, 0.12);
+}
+
+.hero-copy {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .hero .eyebrow {
   margin: 0 0 0.8rem;
-  color: #82d7f1;
+  color: var(--brand);
   font-size: 0.92rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -76,14 +89,14 @@ header {
 .hero h1 {
   margin-top: 0;
   max-width: 850px;
-  color: #ffffff;
+  color: var(--heading);
 }
 
 .hero p {
   max-width: 780px;
   margin-left: 0;
   margin-right: 0;
-  color: #dbe7f1;
+  color: #526174;
 }
 
 .hero-actions {
@@ -91,32 +104,6 @@ header {
   flex-wrap: wrap;
   gap: 0.8rem;
   margin-top: 1.6rem;
-}
-
-.hero-card {
-  max-width: 520px;
-  padding: 1.25rem;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.24);
-}
-
-.hero-card-logo {
-  display: block;
-  width: 100%;
-  margin-bottom: 1rem;
-  background: #ffffff;
-}
-
-.hero-card p {
-  margin-bottom: 0.75rem;
-  color: #edf6fb;
-}
-
-.hero-card .hero-flow {
-  margin: 0;
-  color: #ffffff;
-  font-weight: 700;
 }
 
 .button {
@@ -145,14 +132,14 @@ header {
 
 .button-secondary {
   background: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: var(--ink);
+  color: var(--ink);
 }
 
 .button-secondary:hover,
 .button-secondary:focus {
-  border-color: #82d7f1;
-  color: #82d7f1;
+  border-color: var(--brand);
+  color: var(--brand);
 }
 
 .topbar {
@@ -161,20 +148,25 @@ header {
   justify-content: space-between;
   gap: 1.5rem;
   width: 100%;
-  min-height: 5rem;
-  padding: 0.9rem max(1rem, calc((100% - 980px) / 2));
+  min-height: 5.4rem;
+  padding: 0.9rem max(1rem, calc((100% - 1120px) / 2));
   background: var(--ink);
 }
 
 .site-brand {
   display: block;
   flex: 0 0 auto;
-  width: min(290px, 52vw);
   margin: 0;
+  color: #ffffff;
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .site-brand:hover,
 .site-brand:focus {
+  color: #ffffff;
   opacity: 0.92;
 }
 
@@ -188,7 +180,7 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.5rem 1.15rem;
+  gap: 0.5rem 1.35rem;
   padding: 0;
   border-bottom: 0;
   font-size: 0.96rem;
@@ -207,13 +199,17 @@ nav a:focus {
 
 .nav-profile {
   margin-left: 0.25rem;
-  padding: 0.48rem 0.85rem;
-  border: 1px solid rgba(255, 255, 255, 0.32);
+  padding: 0.58rem 1rem;
+  border: 1px solid #f39a25;
+  background: #f39a25;
+  color: #ffffff;
 }
 
 .nav-profile:hover,
 .nav-profile:focus {
-  border-color: #82d7f1;
+  border-color: #ffb24f;
+  background: #ffb24f;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -323,11 +319,6 @@ footer p {
     font-size: 3rem;
   }
 
-  .hero {
-    grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
-    align-items: center;
-  }
-
   section {
     padding: 1.7rem 0;
   }
@@ -345,11 +336,11 @@ footer p {
   }
 
   .site-brand {
-    width: min(300px, 100%);
+    font-size: 1.25rem;
   }
 
   .hero {
-    padding: 2.6rem 0.75rem 3rem;
+    padding: 1.2rem 0.75rem 2.6rem;
   }
 
   nav {
