@@ -56,17 +56,18 @@ header {
   margin: 0;
   padding: 3rem max(1rem, calc((100% - 980px) / 2)) 3.5rem;
   border-top: 0;
-  background: linear-gradient(180deg, #f5f8fc 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #243448 0%, #2d4057 100%);
+  text-align: center;
 }
 
 .hero-copy {
-  max-width: 980px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .hero .eyebrow {
   margin: 0 0 0.8rem;
-  color: var(--brand);
+  color: #82d7f1;
   font-size: 0.92rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -74,21 +75,22 @@ header {
 }
 
 .hero h1 {
-  margin-top: 0;
+  margin: 0 auto 1rem;
   max-width: 850px;
-  color: var(--heading);
+  color: #ffffff;
 }
 
 .hero p {
   max-width: 780px;
-  margin-left: 0;
-  margin-right: 0;
-  color: #526174;
+  margin-left: auto;
+  margin-right: auto;
+  color: #dbe7f1;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.8rem;
   margin-top: 1.6rem;
 }
@@ -119,14 +121,14 @@ header {
 
 .button-secondary {
   background: transparent;
-  border-color: var(--ink);
-  color: var(--ink);
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .button-secondary:hover,
 .button-secondary:focus {
-  border-color: var(--brand);
-  color: var(--brand);
+  border-color: #82d7f1;
+  color: #82d7f1;
 }
 
 .topbar {

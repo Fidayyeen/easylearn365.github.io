@@ -199,6 +199,7 @@ Completed:
 - Extra Home page hero logo/banner removed to avoid repeated branding.
 - Header logo background adjusted to blend with the dark navigation bar.
 - Header logo text recolored for readability on the dark navigation bar.
+- Home page hero/message section centered and given a medium-dark background.
 
 Next Actions:
 
