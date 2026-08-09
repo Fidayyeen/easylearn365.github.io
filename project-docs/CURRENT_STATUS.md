@@ -79,6 +79,7 @@ Completed Activities:
 - Home page hero upgraded with stronger visual contrast and clearer visual structure
 - EasyLearn365 logo restored in the top header with larger readable tagline sizing
 - Extra Home page hero logo/banner removed to avoid repeated branding
+- Header logo background adjusted to blend with the dark navigation bar
 
 ---
 
