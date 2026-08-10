@@ -32,20 +32,24 @@
       <div class="hero-copy">
         <div class="logo-marquee" aria-label="Technology focus areas">
           <div class="logo-track">
-            <span class="logo-chip microsoft">Microsoft 365</span>
-            <span class="logo-chip azure">Azure</span>
-            <span class="logo-chip identity">Entra ID</span>
-            <span class="logo-chip automation">Automation</span>
-            <span class="logo-chip ai">Azure AI</span>
-            <span class="logo-chip devops">DevOps</span>
-            <span class="logo-chip workplace">Modern Workplace</span>
-            <span class="logo-chip microsoft">Microsoft 365</span>
-            <span class="logo-chip azure">Azure</span>
-            <span class="logo-chip identity">Entra ID</span>
-            <span class="logo-chip automation">Automation</span>
-            <span class="logo-chip ai">Azure AI</span>
-            <span class="logo-chip devops">DevOps</span>
-            <span class="logo-chip workplace">Modern Workplace</span>
+            <span class="logo-group">
+              <span class="logo-tile mark-microsoft"><span class="sr-only">Microsoft 365</span></span>
+              <span class="logo-tile mark-azure"><span class="sr-only">Microsoft Azure</span></span>
+              <span class="logo-tile mark-identity"><span class="sr-only">Identity and security</span></span>
+              <span class="logo-tile mark-automation"><span class="sr-only">Automation</span></span>
+              <span class="logo-tile mark-ai"><span class="sr-only">AI enablement</span></span>
+              <span class="logo-tile mark-devops"><span class="sr-only">DevOps</span></span>
+              <span class="logo-tile mark-workplace"><span class="sr-only">Modern Workplace</span></span>
+            </span>
+            <span class="logo-group" aria-hidden="true">
+              <span class="logo-tile mark-microsoft"></span>
+              <span class="logo-tile mark-azure"></span>
+              <span class="logo-tile mark-identity"></span>
+              <span class="logo-tile mark-automation"></span>
+              <span class="logo-tile mark-ai"></span>
+              <span class="logo-tile mark-devops"></span>
+              <span class="logo-tile mark-workplace"></span>
+            </span>
           </div>
         </div>
         <h1>Practical IT learning, documented step by step.</h1>
@@ -63,63 +67,109 @@
   </header>
 
   <main>
-    <section>
-      <h2>Who This Site Is For</h2>
-      <p>
-        This site is for students, beginners, and IT professionals who want to
-        learn cloud technologies, Microsoft 365, and real-world IT concepts in a
-        practical, structured way.
-      </p>
-      <p>
-        It is especially useful if you prefer learning by understanding how
-        things are built, configured, and troubleshot, not just reading theory.
-      </p>
-    </section>
+    <section class="browse-section" aria-labelledby="browse-title">
+      <div class="section-intro">
+        <h2 id="browse-title">Browse EasyLearn365</h2>
+        <p>
+          Explore the key areas of this site: who it is for, what you will find
+          here, how it is built, and where to go next.
+        </p>
+      </div>
 
-    <section>
-      <h2>What You Will Find Here</h2>
-      <ul>
-        <li>
-          Technical blog posts documenting concepts, labs, and learnings in
-          Microsoft 365, cloud, and IT fundamentals
-        </li>
-        <li>
-          Hands-on projects and real-world examples explained step by step
-        </li>
-        <li>
-          A growing portfolio of practical work and experiments
-        </li>
-        <li>
-          Notes and documentation created while learning and building in public
-        </li>
-      </ul>
-    </section>
+      <div class="browse-grid">
+        <details class="browse-card">
+          <summary>
+            <span class="card-title">Who This Site Is For</span>
+            <span class="card-summary">
+              For learners, beginners, and IT professionals building practical
+              cloud and Microsoft 365 skills.
+            </span>
+          </summary>
+          <div class="card-content">
+            <p>
+              This site is for students, beginners, and IT professionals who
+              want to learn cloud technologies, Microsoft 365, and real-world IT
+              concepts in a practical, structured way.
+            </p>
+            <p>
+              It is especially useful if you prefer learning by understanding
+              how things are built, configured, and troubleshot, not just
+              reading theory.
+            </p>
+          </div>
+        </details>
 
-    <section>
-      <h2>How This Site Is Built</h2>
-      <p>
-        EasyLearn365 is built as a learning-in-public project. Every part of
-        this site, from the domain setup to hosting, version control, and
-        content, is created step by step and documented along the way.
-      </p>
-      <p>
-        Instead of showcasing only finished results, this site focuses on the
-        process: how things are planned, built, fixed, and improved over time
-        using real tools and real scenarios.
-      </p>
-    </section>
+        <details class="browse-card">
+          <summary>
+            <span class="card-title">What You Will Find Here</span>
+            <span class="card-summary">
+              Technical posts, hands-on notes, projects, and documentation from
+              real learning.
+            </span>
+          </summary>
+          <div class="card-content">
+            <ul>
+              <li>
+                Technical blog posts documenting concepts, labs, and learnings
+                in Microsoft 365, cloud, and IT fundamentals
+              </li>
+              <li>
+                Hands-on projects and real-world examples explained step by step
+              </li>
+              <li>
+                A growing portfolio of practical work and experiments
+              </li>
+              <li>
+                Notes and documentation created while learning and building in
+                public
+              </li>
+            </ul>
+          </div>
+        </details>
 
-    <section>
-      <h2>Explore Further</h2>
-      <p>
-        If you are interested in practical learning and real-world
-        documentation, feel free to explore the blog, projects, and notes shared
-        on this site.
-      </p>
-      <p>
-        You can also connect with me through the contact page as the site
-        continues to grow and evolve.
-      </p>
+        <details class="browse-card">
+          <summary>
+            <span class="card-title">How This Site Is Built</span>
+            <span class="card-summary">
+              A learning-in-public project built step by step with real tools
+              and real scenarios.
+            </span>
+          </summary>
+          <div class="card-content">
+            <p>
+              EasyLearn365 is built as a learning-in-public project. Every part
+              of this site, from the domain setup to hosting, version control,
+              and content, is created step by step and documented along the way.
+            </p>
+            <p>
+              Instead of showcasing only finished results, this site focuses on
+              the process: how things are planned, built, fixed, and improved
+              over time using real tools and real scenarios.
+            </p>
+          </div>
+        </details>
+
+        <details class="browse-card">
+          <summary>
+            <span class="card-title">Explore Further</span>
+            <span class="card-summary">
+              Start with the blog, projects, or contact page as the site
+              continues to grow.
+            </span>
+          </summary>
+          <div class="card-content">
+            <p>
+              If you are interested in practical learning and real-world
+              documentation, feel free to explore the blog, projects, and notes
+              shared on this site.
+            </p>
+            <p>
+              You can also connect with me through the contact page as the site
+              continues to grow and evolve.
+            </p>
+          </div>
+        </details>
+      </div>
     </section>
   </main>
 
