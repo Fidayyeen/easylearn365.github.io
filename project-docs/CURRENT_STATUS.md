@@ -88,6 +88,7 @@ Completed Activities:
 - Home page technology strip readability improved with high-contrast labeled chips
 - Home page stylesheet cache-buster added and technology strip labels forced to high-contrast white
 - Home page navigation spacing refined for a cleaner top menu
+- Blog page redesigned with article previews and a useful sidebar layout
 
 ---
 
@@ -135,7 +136,7 @@ Continue Phase 5.
 
 Recommended next step:
 
-Review the updated Home page Browse EasyLearn365 card section, then continue refining the Home page section by section.
+Review the updated Blog page layout, then continue refining pages one by one.
 
 No advanced styling work should be performed yet.
 

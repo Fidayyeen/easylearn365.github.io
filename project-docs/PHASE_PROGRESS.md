@@ -206,11 +206,12 @@ Completed:
 - Home page technology strip readability improved with high-contrast labeled chips.
 - Home page stylesheet cache-buster added and technology strip labels forced to high-contrast white.
 - Home page navigation spacing refined for a cleaner top menu.
+- Blog page redesigned with article previews and a useful sidebar layout.
 
 Next Actions:
 
-- Review the updated Home page Browse EasyLearn365 card section.
-- Continue refining the Home page section by section.
+- Review the updated Blog page layout.
+- Continue refining pages one by one.
 - Return to individual portfolio projects after the main website is complete and presentable.
 
 ---

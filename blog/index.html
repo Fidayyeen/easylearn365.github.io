@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20260811-2" />
   <title>Blog | EasyLearn365</title>
 </head>
 <body>
@@ -35,39 +35,81 @@
     </p>
   </header>
 
-  <main>
-    <section>
-      <h2>Latest Posts</h2>
+  <main class="blog-page">
+    <section class="blog-feed" aria-labelledby="latest-posts">
+      <h2 id="latest-posts">Latest Posts</h2>
 
-      <article>
-        <h3><a href="the-story-behind-easylearn365/">The Story Behind EasyLearn365</a></h3>
-        <p>Published: July 18, 2026 | Category: Website Build Journey | Reading time: 7 minutes</p>
-        <p>
-          The origin story of EasyLearn365, from early curiosity about computers
-          to building a public learning platform focused on cloud, identity,
-          automation, and AI Platform Engineering.
-        </p>
+      <article class="post-preview">
+        <a class="post-thumb thumb-journey" href="the-story-behind-easylearn365/" aria-label="Read The Story Behind EasyLearn365">
+          <span>EasyLearn365</span>
+        </a>
+        <div class="post-summary">
+          <h3><a href="the-story-behind-easylearn365/">The Story Behind EasyLearn365</a></h3>
+          <p class="post-meta">
+            <span>July 18, 2026</span>
+            <span>Website Build Journey</span>
+            <span>7 min read</span>
+          </p>
+          <p>
+            The origin story of EasyLearn365, from early curiosity about
+            computers to building a public learning platform focused on cloud,
+            identity, automation, and AI Platform Engineering.
+          </p>
+          <a class="button button-muted" href="the-story-behind-easylearn365/">Read more</a>
+        </div>
       </article>
 
-      <article>
-        <h3><a href="understanding-the-microsoft-cloud-ecosystem/">Understanding the Microsoft Cloud Ecosystem: How Microsoft 365 and Azure Work Together</a></h3>
-        <p>Published: July 18, 2026 | Category: Microsoft 365 | Reading time: 5 minutes</p>
-        <p>
-          A beginner-friendly framework for understanding how identity,
-          productivity, device management, Azure, and security connect across
-          the Microsoft cloud ecosystem.
-        </p>
+      <article class="post-preview">
+        <a class="post-thumb thumb-cloud" href="understanding-the-microsoft-cloud-ecosystem/" aria-label="Read Understanding the Microsoft Cloud Ecosystem">
+          <span>Microsoft Cloud</span>
+        </a>
+        <div class="post-summary">
+          <h3><a href="understanding-the-microsoft-cloud-ecosystem/">Understanding the Microsoft Cloud Ecosystem: How Microsoft 365 and Azure Work Together</a></h3>
+          <p class="post-meta">
+            <span>July 18, 2026</span>
+            <span>Microsoft 365</span>
+            <span>5 min read</span>
+          </p>
+          <p>
+            A beginner-friendly framework for understanding how identity,
+            productivity, device management, Azure, and security connect across
+            the Microsoft cloud ecosystem.
+          </p>
+          <a class="button button-muted" href="understanding-the-microsoft-cloud-ecosystem/">Read more</a>
+        </div>
       </article>
     </section>
 
-    <section>
-      <h2>Blog Direction</h2>
-      <p>
-        EasyLearn365 will grow gradually through practical learning notes,
-        hands-on labs, troubleshooting writeups, project documentation, and
-        reflections from real implementation work.
-      </p>
-    </section>
+    <aside class="blog-sidebar" aria-label="Blog sidebar">
+      <section class="sidebar-panel">
+        <h2>Recent Articles</h2>
+        <ul class="sidebar-list">
+          <li><a href="the-story-behind-easylearn365/">The Story Behind EasyLearn365</a></li>
+          <li><a href="understanding-the-microsoft-cloud-ecosystem/">Understanding the Microsoft Cloud Ecosystem</a></li>
+        </ul>
+      </section>
+
+      <section class="sidebar-panel">
+        <h2>Categories</h2>
+        <ul class="tag-list">
+          <li>Website Build Journey</li>
+          <li>Microsoft 365</li>
+          <li>Azure</li>
+          <li>Identity & Security</li>
+          <li>Automation & DevOps</li>
+          <li>AI Enablement</li>
+        </ul>
+      </section>
+
+      <section class="sidebar-panel">
+        <h2>Blog Direction</h2>
+        <p>
+          EasyLearn365 will grow through practical learning notes, hands-on
+          labs, troubleshooting writeups, project documentation, and reflections
+          from real implementation work.
+        </p>
+      </section>
+    </aside>
   </main>
 
   <footer>

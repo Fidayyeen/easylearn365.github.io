@@ -558,6 +558,211 @@ main {
   margin-bottom: 0;
 }
 
+.blog-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.blog-feed,
+.blog-sidebar,
+.sidebar-panel {
+  border-top: 0;
+}
+
+.blog-feed h2 {
+  margin-bottom: 1.2rem;
+}
+
+.post-preview {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 1.4rem;
+  margin: 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.post-preview:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.post-thumb {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  overflow: hidden;
+  background: var(--ink);
+  color: #ffffff;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+
+.post-thumb::before,
+.post-thumb::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.post-thumb::before {
+  width: 6.4rem;
+  height: 6.4rem;
+  background: linear-gradient(135deg, #0078d4, #38bdf8);
+  transform: translate(-1.6rem, -0.3rem);
+}
+
+.post-thumb::after {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 0.6rem solid rgba(255, 255, 255, 0.9);
+  border-left-color: transparent;
+  transform: translate(2.3rem, 1.25rem) rotate(-18deg);
+}
+
+.post-thumb span {
+  position: relative;
+  z-index: 1;
+  max-width: 11rem;
+  padding: 0.4rem 0.6rem;
+  background: rgba(23, 35, 49, 0.82);
+  font-size: 0.9rem;
+  letter-spacing: 0;
+}
+
+.thumb-journey::before {
+  background: linear-gradient(135deg, #16a8d8, #2563eb);
+}
+
+.thumb-cloud::before {
+  clip-path: polygon(50% 0, 100% 100%, 62% 100%, 49% 66%, 34% 100%, 0 100%);
+  border-radius: 0;
+}
+
+.post-summary h3 {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  font-size: 1.35rem;
+}
+
+.post-summary h3 a {
+  color: var(--heading);
+  text-decoration: none;
+}
+
+.post-summary h3 a:hover,
+.post-summary h3 a:focus {
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.9rem;
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.post-meta span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.post-meta span + span::before {
+  content: "";
+  display: inline-block;
+  width: 0.42rem;
+  height: 0.42rem;
+  margin-right: 0.65rem;
+  border-radius: 50%;
+  background: var(--line);
+}
+
+.post-summary p:not(.post-meta) {
+  margin-top: 0;
+}
+
+.button-muted {
+  min-height: 2.6rem;
+  border-color: #6b7280;
+  background: #6b7280;
+  color: #ffffff;
+}
+
+.button-muted:hover,
+.button-muted:focus {
+  border-color: var(--brand);
+  background: var(--brand);
+  color: #ffffff;
+}
+
+.blog-sidebar {
+  display: grid;
+  gap: 1.2rem;
+  padding-top: 0.2rem;
+}
+
+.sidebar-panel {
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.sidebar-panel h2 {
+  margin-bottom: 0.9rem;
+  font-size: 1.15rem;
+}
+
+.sidebar-panel p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.sidebar-list,
+.tag-list {
+  max-width: none;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar-list li,
+.tag-list li {
+  margin: 0;
+  padding: 0.65rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.sidebar-list li:first-child,
+.tag-list li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.sidebar-list a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.sidebar-list a:hover,
+.sidebar-list a:focus {
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+.tag-list li {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 section,
 article {
   margin: 0 0 1.1rem;
@@ -631,6 +836,18 @@ footer p {
   .nav-profile {
     margin-left: 0.1rem;
   }
+
+  .blog-page {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-sidebar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .blog-sidebar .sidebar-panel:last-child {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 520px) {
@@ -672,5 +889,17 @@ footer p {
 
   .browse-card summary {
     min-height: auto;
+  }
+
+  .post-preview {
+    grid-template-columns: 1fr;
+  }
+
+  .post-thumb {
+    min-height: 170px;
+  }
+
+  .blog-sidebar {
+    grid-template-columns: 1fr;
   }
 }
