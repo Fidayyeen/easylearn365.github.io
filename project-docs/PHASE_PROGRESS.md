@@ -219,6 +219,7 @@ Completed:
 - Contact page header intro replaced with a reader-facing pitch.
 - Contact form updated to generate a prefilled email draft without insecure form submission.
 - Contact form section copy simplified to avoid repeating the header pitch.
+- Contact form updated to copy a prepared email message instead of opening an external email app.
 
 Next Actions:
 

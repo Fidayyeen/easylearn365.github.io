@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../assets/css/styles.css?v=20260811-6" />
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20260811-7" />
   <title>Contact | EasyLearn365</title>
 </head>
 <body>
@@ -44,7 +44,7 @@
         <h2 id="contact-form-title">Contact Form</h2>
         <p>
           Choose the closest topic and include enough context for a useful
-          reply. This form opens a prefilled email draft.
+          reply. This form copies a prepared email message for you.
         </p>
       </div>
 
@@ -81,14 +81,15 @@
           <textarea name="Message" id="contact-message" rows="7" required></textarea>
         </label>
 
-        <button class="button button-primary" type="submit">Send Email</button>
+        <button class="button button-primary" type="submit">Copy Email Message</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
       </form>
     </section>
 
     <section class="availability-panel">
       <h2>Prefer direct email?</h2>
       <p>
-        You can also reach me directly at
+        After copying your message, paste it into an email and send it to
         <a href="mailto:sakib@easylearn365.com">sakib@easylearn365.com</a>.
       </p>
     </section>
@@ -109,7 +110,10 @@
       const message = document.querySelector("#contact-message").value.trim();
 
       const subject = `EasyLearn365 Contact: ${topic}`;
-      const body = [
+      const emailText = [
+        `To: sakib@easylearn365.com`,
+        `Subject: ${subject}`,
+        "",
         `Name: ${name}`,
         `Email: ${email}`,
         `Topic: ${topic}`,
@@ -118,7 +122,13 @@
         message
       ].join("\n");
 
-      window.location.href = `mailto:sakib@easylearn365.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const status = document.querySelector("#form-status");
+
+      navigator.clipboard.writeText(emailText).then(() => {
+        status.textContent = "Message copied. Paste it into an email and send it to sakib@easylearn365.com.";
+      }).catch(() => {
+        status.textContent = "Copy failed. Please copy your message manually and send it to sakib@easylearn365.com.";
+      });
     });
   </script>
 </body>
