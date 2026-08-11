@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../assets/css/styles.css?v=20260811-4" />
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20260811-5" />
   <title>Contact | EasyLearn365</title>
 </head>
 <body>
@@ -28,55 +28,67 @@
       </nav>
     </div>
 
-    <h1>Contact</h1>
+    <h1 class="sr-only">Contact</h1>
     <p class="page-intro">
-      If you would like to connect, collaborate, discuss a project, or ask a
-      question about the topics shared on EasyLearn365, you can reach me here.
+      For Microsoft 365 Setup &amp; Administration, Intune &amp; Endpoint
+      Management, Identity &amp; Access Guidance, Cloud &amp; Azure Guidance, AI
+      Enablement &amp; Productivity, Power Platform &amp; Automation, or Technical
+      Mentoring &amp; Training conversations, use the form below.
     </p>
   </header>
 
-  <main>
-    <section>
-      <h2>Contact Topics</h2>
-      <p>
-        I am open to professional conversations around Microsoft 365, Azure,
-        identity, endpoint management, automation, AI enablement, technical
-        learning, and documentation-driven projects.
-      </p>
-      <ul>
-        <li>Microsoft 365 and modern workplace topics</li>
-        <li>Azure and cloud learning</li>
-        <li>Identity and access management</li>
-        <li>Intune and endpoint management</li>
-        <li>AI enablement and productivity ideas</li>
-        <li>Power Platform and automation</li>
-        <li>Technical mentoring or learning guidance</li>
-        <li>Portfolio or project collaboration</li>
-        <li>Blog feedback or questions</li>
-        <li>Professional opportunities</li>
-      </ul>
+  <main class="contact-page">
+    <section class="contact-panel" aria-labelledby="contact-form-title">
+      <div class="section-intro">
+        <h2 id="contact-form-title">Let's start the conversation.</h2>
+        <p>
+          Share a few details about what you need help with. The form opens an
+          email draft addressed to EasyLearn365.
+        </p>
+      </div>
+
+      <form class="contact-form" action="mailto:sakib@easylearn365.com" method="post" enctype="text/plain">
+        <div class="form-grid">
+          <label>
+            <span>Name</span>
+            <input type="text" name="Name" autocomplete="name" required />
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" name="Email" autocomplete="email" required />
+          </label>
+        </div>
+
+        <label>
+          <span>Topic</span>
+          <select name="Topic" required>
+            <option value="">Select a topic</option>
+            <option>Microsoft 365 Setup &amp; Administration</option>
+            <option>Intune &amp; Endpoint Management</option>
+            <option>Identity &amp; Access Guidance</option>
+            <option>Cloud &amp; Azure Guidance</option>
+            <option>AI Enablement &amp; Productivity</option>
+            <option>Power Platform &amp; Automation</option>
+            <option>Technical Mentoring &amp; Training</option>
+            <option>Other</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Message</span>
+          <textarea name="Message" rows="7" required></textarea>
+        </label>
+
+        <button class="button button-primary" type="submit">Send Email</button>
+      </form>
     </section>
 
-    <section>
-      <h2>Email</h2>
+    <section class="availability-panel">
+      <h2>Prefer direct email?</h2>
       <p>
-        <a href="mailto:sakib@easylearn365.com">sakib@easylearn365.com</a>
-      </p>
-    </section>
-
-    <section>
-      <h2>Professional Links</h2>
-      <p>
-        LinkedIn and GitHub profile links will be added after the final public
-        URLs are confirmed.
-      </p>
-    </section>
-
-    <section>
-      <h2>Future Contact Form</h2>
-      <p>
-        A contact form may be added later. For the first version, direct email
-        keeps the page simple and privacy-conscious.
+        You can also reach me directly at
+        <a href="mailto:sakib@easylearn365.com">sakib@easylearn365.com</a>.
       </p>
     </section>
   </main>

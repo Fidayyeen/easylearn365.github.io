@@ -97,6 +97,7 @@ Completed Activities:
 - Services page top intro rewritten as a clearer reader-facing service pitch
 - Homepage dark background theme extended to inner page headers
 - Services page extra question intro removed
+- Contact page converted to a form-based layout with Services-aligned topic options
 
 ---
 
@@ -144,7 +145,7 @@ Continue Phase 5.
 
 Recommended next step:
 
-Review the updated Services page, then continue refining pages one by one.
+Review the updated Contact page, then continue refining pages one by one.
 
 No advanced styling work should be performed yet.
 

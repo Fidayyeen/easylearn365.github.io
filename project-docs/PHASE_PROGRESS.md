@@ -215,10 +215,11 @@ Completed:
 - Services page top intro rewritten as a clearer reader-facing service pitch.
 - Homepage dark background theme extended to inner page headers.
 - Services page extra question intro removed.
+- Contact page converted to a form-based layout with Services-aligned topic options.
 
 Next Actions:
 
-- Review the updated Services page.
+- Review the updated Contact page.
 - Continue refining pages one by one.
 - Return to individual portfolio projects after the main website is complete and presentable.
 
