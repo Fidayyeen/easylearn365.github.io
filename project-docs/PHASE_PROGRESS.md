@@ -205,6 +205,7 @@ Completed:
 - Home page technology strip updated with visible labels, including Security and Copilot.
 - Home page technology strip readability improved with high-contrast labeled chips.
 - Home page stylesheet cache-buster added and technology strip labels forced to high-contrast white.
+- Home page navigation spacing refined for a cleaner top menu.
 
 Next Actions:
 
