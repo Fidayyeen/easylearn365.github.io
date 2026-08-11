@@ -213,6 +213,8 @@ Completed:
 - Shared page intro pattern added for remaining core pages.
 - Services page refined with audience cards, expandable service areas, and contact call to action.
 - Services page top intro rewritten as a clearer reader-facing service pitch.
+- Homepage dark background theme extended to inner page headers.
+- Services page extra question intro removed.
 
 Next Actions:
 

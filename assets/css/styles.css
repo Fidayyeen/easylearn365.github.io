@@ -51,6 +51,45 @@ header {
   padding: 0 0 2rem;
 }
 
+.page-header {
+  padding-bottom: 2.4rem;
+  background: linear-gradient(180deg, #243448 0%, #2d4057 100%);
+}
+
+.page-header .topbar {
+  margin-bottom: 2.2rem;
+}
+
+.page-header h1,
+.page-header h2 {
+  color: #ffffff;
+}
+
+.page-header p,
+.page-header .page-intro,
+.page-header .blog-intro,
+.page-header .article-source,
+.page-header .post-meta {
+  color: #dbe7f1;
+}
+
+.page-header .post-meta span + span::before {
+  background: rgba(255, 255, 255, 0.36);
+}
+
+.page-header .button-muted {
+  border-color: rgba(255, 255, 255, 0.75);
+  background: transparent;
+  color: #ffffff;
+}
+
+.page-header .button-muted:hover,
+.page-header .button-muted:focus {
+  border-color: #82d7f1;
+  background: rgba(130, 215, 241, 0.12);
+  color: #82d7f1;
+}
+
 .hero {
   width: 100%;
   margin: 0;
@@ -529,6 +568,10 @@ main {
 .section-intro p {
   margin: 0 auto;
   color: var(--muted);
+}
+
+.page-header .section-intro p {
+  color: #dbe7f1;
 }
 
 .intro-actions {
