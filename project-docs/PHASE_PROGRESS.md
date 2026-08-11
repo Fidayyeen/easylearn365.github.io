@@ -216,6 +216,7 @@ Completed:
 - Homepage dark background theme extended to inner page headers.
 - Services page extra question intro removed.
 - Contact page converted to a form-based layout with Services-aligned topic options.
+- Contact page header intro replaced with a reader-facing pitch.
 
 Next Actions:
 

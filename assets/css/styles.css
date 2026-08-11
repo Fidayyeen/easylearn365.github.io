@@ -549,6 +549,10 @@ header > p {
   padding-top: 0.8rem;
 }
 
+.contact-pitch {
+  margin-bottom: 0;
+}
+
 .contact-panel {
   max-width: 760px;
   margin: 0 auto 1.5rem;
