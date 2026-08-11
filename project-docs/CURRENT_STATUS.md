@@ -89,6 +89,7 @@ Completed Activities:
 - Home page stylesheet cache-buster added and technology strip labels forced to high-contrast white
 - Home page navigation spacing refined for a cleaner top menu
 - Blog page redesigned with article previews and a useful sidebar layout
+- Blog page intro simplified by removing the visible page title
 
 ---
 
