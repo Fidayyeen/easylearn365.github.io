@@ -76,13 +76,13 @@ header {
 .logo-track {
   display: flex;
   width: max-content;
-  animation: logo-scroll 22s linear infinite;
+  animation: logo-scroll 34s linear infinite;
 }
 
 .logo-group {
   display: flex;
-  gap: 1.1rem;
-  padding-right: 1.1rem;
+  gap: 0.8rem;
+  padding-right: 0.8rem;
 }
 
 .logo-tile {
@@ -90,10 +90,20 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 5.4rem;
-  height: 3.4rem;
+  gap: 0.65rem;
+  min-width: max-content;
+  min-height: 3.15rem;
+  padding: 0.65rem 1rem;
   border: 1px solid rgba(255, 255, 255, 0.18);
   background: rgba(255, 255, 255, 0.1);
+}
+
+.logo-label {
+  color: #ffffff;
+  font-size: 0.94rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .sr-only {
@@ -110,8 +120,9 @@ header {
 
 .mark-microsoft::before {
   content: "";
-  width: 2rem;
-  height: 2rem;
+  flex: 0 0 auto;
+  width: 1.55rem;
+  height: 1.55rem;
   background:
     linear-gradient(#f25022 0 0) 0 0 / 46% 46%,
     linear-gradient(#7fba00 0 0) 100% 0 / 46% 46%,
@@ -122,16 +133,18 @@ header {
 
 .mark-azure::before {
   content: "";
-  width: 2.35rem;
-  height: 2.1rem;
+  flex: 0 0 auto;
+  width: 1.85rem;
+  height: 1.65rem;
   background: linear-gradient(135deg, #38bdf8, #0078d4);
   clip-path: polygon(50% 0, 100% 100%, 62% 100%, 49% 66%, 34% 100%, 0 100%);
 }
 
 .mark-identity::before {
   content: "";
-  width: 2.1rem;
-  height: 2.25rem;
+  flex: 0 0 auto;
+  width: 1.6rem;
+  height: 1.75rem;
   background: linear-gradient(135deg, #7dd3fc, #6366f1);
   clip-path: polygon(50% 0, 90% 18%, 82% 76%, 50% 100%, 18% 76%, 10% 18%);
 }
@@ -139,47 +152,94 @@ header {
 .mark-identity::after {
   content: "";
   position: absolute;
-  width: 0.72rem;
-  height: 0.72rem;
-  border: 0.22rem solid #ffffff;
+  left: 1.42rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 0.16rem solid #ffffff;
   border-top-color: transparent;
   border-radius: 50%;
 }
 
+.mark-security::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 1.65rem;
+  height: 1.8rem;
+  background: linear-gradient(135deg, #22c55e, #14b8a6);
+  clip-path: polygon(50% 0, 88% 17%, 82% 73%, 50% 100%, 18% 73%, 12% 17%);
+}
+
+.mark-security::after {
+  content: "";
+  position: absolute;
+  left: 1.47rem;
+  width: 0.62rem;
+  height: 0.48rem;
+  border: 0.14rem solid #ffffff;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  border-bottom-width: 0.28rem;
+}
+
 .mark-automation::before {
   content: "";
-  width: 2.1rem;
-  height: 2.1rem;
-  border: 0.42rem solid #facc15;
+  flex: 0 0 auto;
+  width: 1.55rem;
+  height: 1.55rem;
+  border: 0.3rem solid #facc15;
   border-radius: 50%;
   box-shadow:
-    0 -1.24rem 0 -0.86rem #facc15,
-    0 1.24rem 0 -0.86rem #facc15,
-    1.24rem 0 0 -0.86rem #facc15,
-    -1.24rem 0 0 -0.86rem #facc15,
-    0.88rem 0.88rem 0 -0.86rem #facc15,
-    -0.88rem -0.88rem 0 -0.86rem #facc15,
-    0.88rem -0.88rem 0 -0.86rem #facc15,
-    -0.88rem 0.88rem 0 -0.86rem #facc15;
+    0 -0.92rem 0 -0.64rem #facc15,
+    0 0.92rem 0 -0.64rem #facc15,
+    0.92rem 0 0 -0.64rem #facc15,
+    -0.92rem 0 0 -0.64rem #facc15,
+    0.65rem 0.65rem 0 -0.64rem #facc15,
+    -0.65rem -0.65rem 0 -0.64rem #facc15,
+    0.65rem -0.65rem 0 -0.64rem #facc15,
+    -0.65rem 0.65rem 0 -0.64rem #facc15;
 }
 
 .mark-ai::before {
   content: "";
-  width: 2.35rem;
-  height: 2.35rem;
-  border: 0.25rem solid #67e8f9;
+  flex: 0 0 auto;
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 0.2rem solid #67e8f9;
   border-radius: 50%;
   box-shadow:
-    1rem 0.35rem 0 -0.45rem #67e8f9,
-    -0.9rem 0.5rem 0 -0.45rem #67e8f9,
-    0 -1rem 0 -0.45rem #67e8f9;
+    0.74rem 0.25rem 0 -0.34rem #67e8f9,
+    -0.66rem 0.36rem 0 -0.34rem #67e8f9,
+    0 -0.74rem 0 -0.34rem #67e8f9;
+}
+
+.mark-copilot::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 1.85rem;
+  height: 1.5rem;
+  border: 0.24rem solid #a78bfa;
+  border-left-color: #38bdf8;
+  border-right-color: #22c55e;
+  border-radius: 50%;
+  transform: rotate(-12deg);
+}
+
+.mark-copilot::after {
+  content: "";
+  position: absolute;
+  left: 1.68rem;
+  width: 0.62rem;
+  height: 0.62rem;
+  background: #38bdf8;
+  border-radius: 50%;
 }
 
 .mark-devops::before {
   content: "";
-  width: 2.65rem;
-  height: 1.45rem;
-  border: 0.32rem solid #93c5fd;
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 1.1rem;
+  border: 0.24rem solid #93c5fd;
   border-left-color: transparent;
   border-right-color: transparent;
   border-radius: 50%;
@@ -188,11 +248,12 @@ header {
 
 .mark-workplace::before {
   content: "";
-  width: 2.3rem;
-  height: 1.65rem;
-  border: 0.22rem solid #86efac;
+  flex: 0 0 auto;
+  width: 1.75rem;
+  height: 1.25rem;
+  border: 0.18rem solid #86efac;
   border-radius: 0.18rem;
-  box-shadow: 0.45rem 0.45rem 0 -0.18rem #86efac;
+  box-shadow: 0.34rem 0.34rem 0 -0.14rem #86efac;
 }
 
 @keyframes logo-scroll {
