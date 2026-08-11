@@ -212,6 +212,7 @@ Completed:
 - Stylesheet cache-buster standardized across all website pages.
 - Shared page intro pattern added for remaining core pages.
 - Services page refined with audience cards, expandable service areas, and contact call to action.
+- Services page top intro rewritten as a clearer reader-facing service pitch.
 
 Next Actions:
 
