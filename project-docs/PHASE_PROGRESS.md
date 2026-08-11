@@ -208,6 +208,7 @@ Completed:
 - Home page navigation spacing refined for a cleaner top menu.
 - Blog page redesigned with article previews and a useful sidebar layout.
 - Blog page intro simplified by removing the visible page title.
+- Individual blog post headers standardized with compact title and inline metadata.
 
 Next Actions:
 
