@@ -99,6 +99,7 @@ Completed Activities:
 - Services page extra question intro removed
 - Contact page converted to a form-based layout with Services-aligned topic options
 - Contact page header intro replaced with a reader-facing pitch
+- Contact form updated to generate a prefilled email draft without insecure form submission
 
 ---
 

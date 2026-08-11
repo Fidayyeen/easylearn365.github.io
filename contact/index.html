@@ -48,22 +48,22 @@
         </p>
       </div>
 
-      <form class="contact-form" action="mailto:sakib@easylearn365.com" method="post" enctype="text/plain">
+      <form class="contact-form" id="contact-form">
         <div class="form-grid">
           <label>
             <span>Name</span>
-            <input type="text" name="Name" autocomplete="name" required />
+            <input type="text" name="Name" id="contact-name" autocomplete="name" required />
           </label>
 
           <label>
             <span>Email</span>
-            <input type="email" name="Email" autocomplete="email" required />
+            <input type="email" name="Email" id="contact-email" autocomplete="email" required />
           </label>
         </div>
 
         <label>
           <span>Topic</span>
-          <select name="Topic" required>
+          <select name="Topic" id="contact-topic" required>
             <option value="">Select a topic</option>
             <option>Microsoft 365 Setup &amp; Administration</option>
             <option>Intune &amp; Endpoint Management</option>
@@ -78,7 +78,7 @@
 
         <label>
           <span>Message</span>
-          <textarea name="Message" rows="7" required></textarea>
+          <textarea name="Message" id="contact-message" rows="7" required></textarea>
         </label>
 
         <button class="button button-primary" type="submit">Send Email</button>
@@ -97,5 +97,29 @@
   <footer>
     <p>&copy; 2026 EasyLearn365. Learn &rarr; Document &rarr; Build &rarr; Improve.</p>
   </footer>
+  <script>
+    const contactForm = document.querySelector("#contact-form");
+
+    contactForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const name = document.querySelector("#contact-name").value.trim();
+      const email = document.querySelector("#contact-email").value.trim();
+      const topic = document.querySelector("#contact-topic").value;
+      const message = document.querySelector("#contact-message").value.trim();
+
+      const subject = `EasyLearn365 Contact: ${topic}`;
+      const body = [
+        `Name: ${name}`,
+        `Email: ${email}`,
+        `Topic: ${topic}`,
+        "",
+        "Message:",
+        message
+      ].join("\n");
+
+      window.location.href = `mailto:sakib@easylearn365.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    });
+  </script>
 </body>
 </html>
