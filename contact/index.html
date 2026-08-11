@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../assets/css/styles.css?v=20260811-7" />
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20260811-8" />
   <title>Contact | EasyLearn365</title>
 </head>
 <body>
@@ -44,92 +44,42 @@
         <h2 id="contact-form-title">Contact Form</h2>
         <p>
           Choose the closest topic and include enough context for a useful
-          reply. This form copies a prepared email message for you.
+          reply. The form is powered by Microsoft Forms.
         </p>
       </div>
 
-      <form class="contact-form" id="contact-form">
-        <div class="form-grid">
-          <label>
-            <span>Name</span>
-            <input type="text" name="Name" id="contact-name" autocomplete="name" required />
-          </label>
-
-          <label>
-            <span>Email</span>
-            <input type="email" name="Email" id="contact-email" autocomplete="email" required />
-          </label>
-        </div>
-
-        <label>
-          <span>Topic</span>
-          <select name="Topic" id="contact-topic" required>
-            <option value="">Select a topic</option>
-            <option>Microsoft 365 Setup &amp; Administration</option>
-            <option>Intune &amp; Endpoint Management</option>
-            <option>Identity &amp; Access Guidance</option>
-            <option>Cloud &amp; Azure Guidance</option>
-            <option>AI Enablement &amp; Productivity</option>
-            <option>Power Platform &amp; Automation</option>
-            <option>Technical Mentoring &amp; Training</option>
-            <option>Other</option>
-          </select>
-        </label>
-
-        <label>
-          <span>Message</span>
-          <textarea name="Message" id="contact-message" rows="7" required></textarea>
-        </label>
-
-        <button class="button button-primary" type="submit">Copy Email Message</button>
-        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-      </form>
+      <div class="forms-embed">
+        <iframe
+          title="Contact EasyLearn365 Microsoft Form"
+          src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=LboJ872FtE-rWVxL9p3v95WpBZxucZZKnsJqeRG0f4lUOTBLVUJQNTVNNEtCNVU4S0VTUEVVMUlVMS4u&amp;embed=true"
+          frameborder="0"
+          marginwidth="0"
+          marginheight="0"
+          allowfullscreen
+          webkitallowfullscreen
+          mozallowfullscreen
+          msallowfullscreen
+        ></iframe>
+      </div>
     </section>
 
     <section class="availability-panel">
-      <h2>Prefer direct email?</h2>
+      <h2>Having trouble viewing the form?</h2>
       <p>
-        After copying your message, paste it into an email and send it to
+        Open the contact form directly, or email
         <a href="mailto:sakib@easylearn365.com">sakib@easylearn365.com</a>.
       </p>
+      <a
+        class="button button-primary"
+        href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=LboJ872FtE-rWVxL9p3v95WpBZxucZZKnsJqeRG0f4lUOTBLVUJQNTVNNEtCNVU4S0VTUEVVMUlVMS4u"
+      >
+        Open Contact Form
+      </a>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2026 EasyLearn365. Learn &rarr; Document &rarr; Build &rarr; Improve.</p>
   </footer>
-  <script>
-    const contactForm = document.querySelector("#contact-form");
-
-    contactForm.addEventListener("submit", (event) => {
-      event.preventDefault();
-
-      const name = document.querySelector("#contact-name").value.trim();
-      const email = document.querySelector("#contact-email").value.trim();
-      const topic = document.querySelector("#contact-topic").value;
-      const message = document.querySelector("#contact-message").value.trim();
-
-      const subject = `EasyLearn365 Contact: ${topic}`;
-      const emailText = [
-        `To: sakib@easylearn365.com`,
-        `Subject: ${subject}`,
-        "",
-        `Name: ${name}`,
-        `Email: ${email}`,
-        `Topic: ${topic}`,
-        "",
-        "Message:",
-        message
-      ].join("\n");
-
-      const status = document.querySelector("#form-status");
-
-      navigator.clipboard.writeText(emailText).then(() => {
-        status.textContent = "Message copied. Paste it into an email and send it to sakib@easylearn365.com.";
-      }).catch(() => {
-        status.textContent = "Copy failed. Please copy your message manually and send it to sakib@easylearn365.com.";
-      });
-    });
-  </script>
 </body>
 </html>

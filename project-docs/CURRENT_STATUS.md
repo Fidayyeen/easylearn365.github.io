@@ -102,6 +102,7 @@ Completed Activities:
 - Contact form updated to generate a prefilled email draft without insecure form submission
 - Contact form section copy simplified to avoid repeating the header pitch
 - Contact form updated to copy a prepared email message instead of opening an external email app
+- Contact page updated to use an embedded Microsoft Form with a direct form fallback link
 
 ---
 
@@ -149,7 +150,7 @@ Continue Phase 5.
 
 Recommended next step:
 
-Review the updated Contact page, then continue refining pages one by one.
+Review the embedded Microsoft Form on the Contact page, then continue refining pages one by one.
 
 No advanced styling work should be performed yet.
 
