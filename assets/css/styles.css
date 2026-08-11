@@ -451,6 +451,61 @@ header > p {
   text-align: center;
 }
 
+.services-page {
+  padding-top: 0.8rem;
+}
+
+.service-section {
+  border-top: 0;
+}
+
+.service-section > h2 {
+  margin-bottom: 1.1rem;
+  text-align: center;
+}
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.audience-card {
+  padding: 1.15rem;
+  border: 1px solid var(--line);
+  background: #ffffff;
+  box-shadow: 0 0.45rem 1.2rem rgba(23, 35, 49, 0.05);
+}
+
+.audience-card h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.audience-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.availability-panel {
+  max-width: 760px;
+  margin: 0 auto 1.6rem;
+  padding: 1.4rem;
+  border: 1px solid rgba(22, 168, 216, 0.35);
+  background: #ffffff;
+  text-align: center;
+}
+
+.availability-panel p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.availability-panel .button {
+  margin-top: 0.5rem;
+}
+
 main {
   padding-bottom: 2.5rem;
 }
@@ -890,6 +945,10 @@ footer p {
   .blog-sidebar .sidebar-panel:last-child {
     grid-column: 1 / -1;
   }
+
+  .audience-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 520px) {
@@ -951,6 +1010,10 @@ footer p {
   }
 
   .blog-sidebar {
+    grid-template-columns: 1fr;
+  }
+
+  .audience-grid {
     grid-template-columns: 1fr;
   }
 }
