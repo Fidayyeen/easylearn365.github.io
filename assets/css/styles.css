@@ -445,6 +445,12 @@ header > p {
   width: min(100% - 2rem, 980px);
 }
 
+.page-intro {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
 main {
   padding-bottom: 2.5rem;
 }

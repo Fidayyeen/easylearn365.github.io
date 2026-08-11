@@ -209,10 +209,12 @@ Completed:
 - Blog page redesigned with article previews and a useful sidebar layout.
 - Blog page intro simplified by removing the visible page title.
 - Individual blog post headers standardized with compact title and inline metadata.
+- Stylesheet cache-buster standardized across all website pages.
+- Shared page intro pattern added for remaining core pages.
 
 Next Actions:
 
-- Review the updated Blog page layout.
+- Review the site-wide consistency pass.
 - Continue refining pages one by one.
 - Return to individual portfolio projects after the main website is complete and presentable.
 

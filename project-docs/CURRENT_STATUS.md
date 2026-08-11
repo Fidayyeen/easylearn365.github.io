@@ -91,6 +91,8 @@ Completed Activities:
 - Blog page redesigned with article previews and a useful sidebar layout
 - Blog page intro simplified by removing the visible page title
 - Individual blog post headers standardized with compact title and inline metadata
+- Stylesheet cache-buster standardized across all website pages
+- Shared page intro pattern added for remaining core pages
 
 ---
 
@@ -138,7 +140,7 @@ Continue Phase 5.
 
 Recommended next step:
 
-Review the updated Blog page layout, then continue refining pages one by one.
+Review the site-wide consistency pass, then continue refining pages one by one.
 
 No advanced styling work should be performed yet.
 
