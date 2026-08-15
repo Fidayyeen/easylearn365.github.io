@@ -229,10 +229,11 @@ Completed:
 - About Me focus, roadmap, and looking-ahead sections combined into one "Current Focus and Direction" section with focus chips and a direction path.
 - About Me "My Professional Journey" moved above current focus and rewritten as a story-style section with SMB value positioning.
 - About Me certifications and personal note combined into a confident closing section with CV and Contact links.
+- CV / Resume page redesigned as a proper online CV with cover letter, cloud engineering positioning, skills sidebar, and professional experience including current DXC Technologies role.
 
 Next Actions:
 
-- Continue refining the About Me page content and interaction pattern.
+- Review the redesigned CV / Resume page on the live website.
 - Continue refining pages one by one.
 - Return to individual portfolio projects after the main website is complete and presentable.
 
