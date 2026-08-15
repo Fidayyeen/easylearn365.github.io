@@ -582,6 +582,67 @@ header > p {
   margin-top: 0.5rem;
 }
 
+.learning-philosophy > p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.learning-flow {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  max-width: 980px;
+  margin: 1.6rem auto 0;
+}
+
+.learning-step {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 12rem;
+  padding: 1.15rem;
+  border: 1px solid rgba(22, 168, 216, 0.35);
+  background: #ffffff;
+  box-shadow: 0 0.6rem 1.4rem rgba(23, 35, 49, 0.06);
+}
+
+.learning-step::before {
+  content: "";
+  position: absolute;
+  inset: 0.35rem auto auto 0.35rem;
+  width: 2.6rem;
+  height: 0.22rem;
+  background: var(--blue);
+}
+
+.step-number {
+  display: inline-block;
+  margin-bottom: 1.6rem;
+  color: var(--brand);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.learning-step h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.2rem;
+}
+
+.learning-step p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.flow-arrow {
+  flex: 0 0 auto;
+  color: var(--blue);
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
 .contact-page {
   padding-top: 0.8rem;
 }
@@ -1068,6 +1129,15 @@ footer p {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .learning-flow {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .flow-arrow {
+    display: none;
+  }
+
   .blog-sidebar .sidebar-panel:last-child {
     grid-column: 1 / -1;
   }
@@ -1134,6 +1204,14 @@ footer p {
 
   .browse-grid {
     grid-template-columns: 1fr;
+  }
+
+  .learning-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .learning-step {
+    min-height: auto;
   }
 
   .section-intro h2 {
