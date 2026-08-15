@@ -735,6 +735,31 @@ header > p {
   line-height: 1.55;
 }
 
+.about-closing {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.6rem 1.8rem;
+  border: 1px solid rgba(22, 168, 216, 0.28);
+  background:
+    linear-gradient(135deg, rgba(22, 168, 216, 0.08), rgba(255, 255, 255, 0.88)),
+    #ffffff;
+  box-shadow: 0 0.7rem 1.6rem rgba(23, 35, 49, 0.06);
+}
+
+.about-closing h2 {
+  margin-bottom: 0.8rem;
+}
+
+.about-closing p {
+  margin-left: 0;
+}
+
+.about-closing p:last-child {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
 .contact-page {
   padding-top: 0.8rem;
 }
