@@ -704,6 +704,37 @@ header > p {
   color: var(--brand);
 }
 
+.professional-journey {
+  border-top: 0;
+}
+
+.story-panel {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 1.6rem 1.8rem 1.6rem 2rem;
+  border: 1px solid rgba(22, 168, 216, 0.25);
+  border-left: 0.32rem solid var(--blue);
+  background: #ffffff;
+  box-shadow: 0 0.7rem 1.6rem rgba(23, 35, 49, 0.06);
+}
+
+.story-panel p {
+  margin: 0 0 1rem;
+}
+
+.story-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.story-lead {
+  max-width: 760px;
+  color: var(--heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
 .contact-page {
   padding-top: 0.8rem;
 }
