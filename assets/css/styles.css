@@ -653,6 +653,57 @@ header > p {
   line-height: 1;
 }
 
+.focus-direction > p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.focus-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  max-width: 840px;
+  margin: 1.3rem auto 1.6rem;
+}
+
+.focus-grid span {
+  padding: 0.55rem 0.85rem;
+  border: 1px solid rgba(22, 168, 216, 0.35);
+  background: #ffffff;
+  color: var(--heading);
+  font-weight: 700;
+  box-shadow: 0 0.35rem 0.9rem rgba(23, 35, 49, 0.05);
+}
+
+.direction-path {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem;
+  max-width: 880px;
+  margin: 0 auto 1.4rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.direction-path span,
+.direction-path strong {
+  display: inline-flex;
+  align-items: center;
+}
+
+.direction-path span::after {
+  content: "\2192";
+  margin-left: 0.55rem;
+  color: var(--blue);
+}
+
+.direction-path strong {
+  color: var(--brand);
+}
+
 .contact-page {
   padding-top: 0.8rem;
 }

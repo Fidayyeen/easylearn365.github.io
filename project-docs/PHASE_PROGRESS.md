@@ -226,6 +226,7 @@ Completed:
 - About Me page certification details reduced to a short CV link, and the site-directory section removed to avoid overlap with Home and CV pages.
 - About Me "My Learning Philosophy" section rewritten and converted into a visual Learn -> Document -> Build -> Improve flow.
 - About Me "My Learning Philosophy" section given a light blue themed background to separate it visually from the rest of the page.
+- About Me focus, roadmap, and looking-ahead sections combined into one "Current Focus and Direction" section with focus chips and a direction path.
 
 Next Actions:
 
